@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_12_06_073429) do
+ActiveRecord::Schema[7.0].define(version: 2024_12_06_075650) do
   create_table "users", charset: "utf8mb3", force: :cascade do |t|
     t.string "name", null: false
     t.string "email", default: "", null: false
